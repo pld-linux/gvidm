@@ -5,12 +5,12 @@
 Summary:	Application to quickly and easily change video resolutions in X
 Summary(pl):	Aplikacja do szybkiej i ³atwej zmiany rozdzielczo¶ci pod X
 Name:		gvidm
-Version:	0.5
+Version:	0.6
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.dakotacom.net/~donut/programs/gvidm/%{name}-%{version}.tar.gz
-# Source0-md5:	f248c443f704316ceacab93de5d4c118
+# Source0-md5:	e5854c9e7bd926c25fec4c96e8c419d6
 URL:		http://www.dakotacom.net/~donut/programs/gvidm.html
 BuildRequires:	autoconf
 BuildRequires:	gtk+-devel
