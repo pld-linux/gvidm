@@ -10,6 +10,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.azstarnet.com/~donut/programs/gvidm/%{name}-%{version}.tar.gz
+# Source0-md5:	63d75eac37231e0283d731fe12d63a99
 URL:		http://www.azstarnet.com/~donut/programs/gvidm.html
 BuildRequires:	autoconf
 BuildRequires:	gtk+-devel
