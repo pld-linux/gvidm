@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
 %description
-gvidm is a gtk app to quickly and easily change video resolutions in
+gvidm is a GTK+ app to quickly and easily change video resolutions in
 X. Running it will pop up a list of available modes, upon choosing a
 mode or cancelling, it exits. This makes it perfect for running from
 an application menu or a hotkey, so you don't have to use ram for an
@@ -27,7 +27,7 @@ displays, it will give you a list of screens so you can select the
 appropriate one. gvidm is based on gvid (similar GNOME application).
 
 %description -l pl
-gvidm to aplikacja gtk do szybkiej i ³atwej zmiany rozdzielczo¶ci pod
+gvidm to aplikacja GTK+ do szybkiej i ³atwej zmiany rozdzielczo¶ci pod
 X. Po uruchomieniu wy¶wietla listê dostêpnych trybów, a po wybraniu
 którego¶ lub rezygnacji koñczy pracê. Dziêki temu mo¿e byæ ³atwo
 uruchamiany z menu aplikacji lub klawiszem skrótu i nie zajmuje przy
