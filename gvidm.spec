@@ -36,7 +36,7 @@ ten, którego ma dotyczyæ zmiana. gvidm bazuje na programie gvid
 %setup -q
 
 %build
-autoconf
+%{__autoconf}
 %configure
 
 %{__make}
