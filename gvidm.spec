@@ -1,3 +1,7 @@
+#
+# TODO:
+# - add desktop file.
+#
 Summary:	Application to quickly and easily change video resolutions in X
 Summary(pl):	Aplikacja do szybkiej i ³atwej zmiany rozdzielczo¶ci pod X
 Name:		gvidm
@@ -41,8 +45,6 @@ ten, którego ma dotyczyæ zmiana. gvidm bazuje na programie gvid
 
 %{__make}
 
-gzip -9nf ChangeLog README
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
@@ -55,6 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc ChangeLog README
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
