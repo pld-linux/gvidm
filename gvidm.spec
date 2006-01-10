@@ -1,16 +1,14 @@
-#
-# TODO:
-# - add desktop file.
-#
 Summary:	Application to quickly and easily change video resolutions in X
 Summary(pl):	Aplikacja do szybkiej i ³atwej zmiany rozdzielczo¶ci pod X
 Name:		gvidm
 Version:	0.8
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://www.dakotacom.net/~donut/programs/gvidm/%{name}-%{version}.tar.gz
 # Source0-md5:	fa9bbf18561c7830e0f9b2d3995e3720
+Source1:	%{name}.png
+Source2:	%{name}.desktop
 URL:		http://www.dakotacom.net/~donut/programs/gvidm.html
 BuildRequires:	autoconf
 BuildRequires:	gtk+2-devel
@@ -46,10 +44,12 @@ ten, którego ma dotyczyæ zmiana. gvidm bazuje na programie gvid
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1,%{_pixmapsdir},%{_desktopdir}}
 
 install gvidm $RPM_BUILD_ROOT%{_bindir}
 install gvidm.1 $RPM_BUILD_ROOT%{_mandir}/man1
+install %{SOURCE1} $RPM_BUILD_ROOT%{_pixmapsdir}
+install %{SOURCE2} $RPM_BUILD_ROOT%{_desktopdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -59,3 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog README
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
+%{_pixmapsdir}/*.png
+%{_desktopdir}/*.desktop
