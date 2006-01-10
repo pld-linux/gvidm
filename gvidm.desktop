@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=GVidm
+Comment=Application to quickly and easily change video resolutions in X
+Comment[pl]=Aplikacja do szybkiej i łatwej zmiany rozdzielczości pod X
+Exec=gvidm
+Icon=gvidm.png
+Terminal=false
+Categories=GTK;Settings;
+Type=Application
+Encoding=UTF-8
+# vi: encoding=utf-8
