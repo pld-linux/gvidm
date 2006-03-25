@@ -12,6 +12,7 @@ Source2:	%{name}.desktop
 URL:		http://www.dakotacom.net/~donut/programs/gvidm.html
 BuildRequires:	autoconf
 BuildRequires:	gtk+2-devel
+BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
