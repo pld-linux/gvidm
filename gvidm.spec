@@ -13,6 +13,7 @@ URL:		http://www.dakotacom.net/~donut/programs/gvidm.html
 BuildRequires:	autoconf
 BuildRequires:	gtk+2-devel
 BuildRequires:	libstdc++-devel
+BuildRequires:	xorg-lib-libXxf86vm-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
