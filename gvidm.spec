@@ -1,5 +1,5 @@
 Summary:	Application to quickly and easily change video resolutions in X
-Summary(pl):	Aplikacja do szybkiej i ³atwej zmiany rozdzielczo¶ci pod X
+Summary(pl.UTF-8):   Aplikacja do szybkiej i Å‚atwej zmiany rozdzielczoÅ›ci pod X
 Name:		gvidm
 Version:	0.8
 Release:	2
@@ -26,14 +26,14 @@ applet constantly running. If you are running dual or multi-head
 displays, it will give you a list of screens so you can select the
 appropriate one. gvidm is based on gvid (similar GNOME application).
 
-%description -l pl
-gvidm to aplikacja GTK+ do szybkiej i ³atwej zmiany rozdzielczo¶ci pod
-X. Po uruchomieniu wy¶wietla listê dostêpnych trybów, a po wybraniu
-którego¶ lub rezygnacji koñczy pracê. Dziêki temu mo¿e byæ ³atwo
-uruchamiana z menu aplikacji lub klawiszem skrótu i nie zajmuje przy
-tym pamiêci. W przypadku pracy z wieloma monitorami pozwala wybraæ
-ten, którego ma dotyczyæ zmiana. gvidm bazuje na programie gvid
-(s³u¿±cym do tego samego celu, ale bêd±cym aplikacj± GNOME).
+%description -l pl.UTF-8
+gvidm to aplikacja GTK+ do szybkiej i Å‚atwej zmiany rozdzielczoÅ›ci pod
+X. Po uruchomieniu wyÅ›wietla listÄ™ dostÄ™pnych trybÃ³w, a po wybraniu
+ktÃ³regoÅ› lub rezygnacji koÅ„czy pracÄ™. DziÄ™ki temu moÅ¼e byÄ‡ Å‚atwo
+uruchamiana z menu aplikacji lub klawiszem skrÃ³tu i nie zajmuje przy
+tym pamiÄ™ci. W przypadku pracy z wieloma monitorami pozwala wybraÄ‡
+ten, ktÃ³rego ma dotyczyÄ‡ zmiana. gvidm bazuje na programie gvid
+(sÅ‚uÅ¼Ä…cym do tego samego celu, ale bÄ™dÄ…cym aplikacjÄ… GNOME).
 
 %prep
 %setup -q
