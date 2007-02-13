@@ -1,5 +1,5 @@
 Summary:	Application to quickly and easily change video resolutions in X
-Summary(pl.UTF-8):   Aplikacja do szybkiej i łatwej zmiany rozdzielczości pod X
+Summary(pl.UTF-8):	Aplikacja do szybkiej i łatwej zmiany rozdzielczości pod X
 Name:		gvidm
 Version:	0.8
 Release:	2
